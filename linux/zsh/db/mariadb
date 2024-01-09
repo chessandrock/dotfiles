@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+export MYSQL_HOST="127.0.0.1"
+export MYSQL_PORT="3306"
+export MYSQL_USERNAME="$USER"
+export MYSQL_PASSWORD="$USER"
+export MYSQL_DATABASE="$USER"
+
+export MARIADB_HOST="127.0.0.1"
+export MARIADB_PORT="3306"
+export MARIADB_USERNAME="$USER"
+export MARIADB_PASSWORD="$USER"
+export MARIADB_DATABASE="$USER"

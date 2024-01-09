@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+export MAILER_ADDRESS="localhost"
+export MAILER_PORT="1025"
+export MAILER_DOMAIN="localhost"
+export MAILER_USERNAME="$USER"
+export MAILER_PASSWORD="$USER"
+export MAILER_AUTHENTICATION="plain"
+export MAILER_STARTTLS="true"
+export MAILER_SENDER="$USER@localhost"
+export MAILER_WEB="http://localhost:1080/"

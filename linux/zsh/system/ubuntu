@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+export SYSTEMCONF_PAGER="/usr/bin/most"
+export SYSTEMCONF_VIM="/usr/bin/vim"
+export SYSTEMCONF_VSCODE="/usr/bin/code"

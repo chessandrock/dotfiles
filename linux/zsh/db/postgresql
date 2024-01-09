@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+export PGSQL_HOST="127.0.0.1"
+export PGSQL_PORT="3306"
+export PGSQL_USERNAME="$USER"
+export PGSQL_PASSWORD="$USER"
+export PGSQL_DATABASE="$USER"

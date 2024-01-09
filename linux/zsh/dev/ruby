@@ -1,0 +1,21 @@
+#!/usr/bin/env zsh
+
+# Desarrollo en Ruby.
+export RUBY_GC_FREE_SLOTS=512000
+export RUBY_GC_HEAP_INIT_SLOTS=64000
+export RUBY_GC_MALLOC_LIMIT=4294967296
+
+# Desarrollo en Rails
+#export DATABASE_URL="mysql2://$USER:$USER@127.0.0.1:3306/rails"
+export RAILS_DEFAULT_EMAIL="dev@localhost"
+export RAILS_DEFAULT_EMAIL_USERNAME="dev"
+export RAILS_DEFAULT_EMAIL_PASSWORD="secret"
+export RAILS_DEFAULT_TIMEZONE="America/Santiago"
+export RAILS_ENV="development"
+export RAILS_LOG_LEVEL="debug"
+export RAILS_MIN_THREADS=1
+export RAILS_MAX_THREADS=1
+export RAILS_MASTER_KEY="1234567890ABCDEF1234567890ABCDEF"
+export RAILS_SECRET_KEY_BASE="1234567890ABCDEF"
+export RAILS_SESSION_STORE="64f3aedfc4a05a04"
+export WEB_CONCURRENCY=0
